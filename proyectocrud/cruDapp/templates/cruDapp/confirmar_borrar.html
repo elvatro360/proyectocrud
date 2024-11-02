@@ -1,0 +1,14 @@
+{% extends 'cruDapp/base.html' %}
+
+{% block title %}Confirmar Borrado{% endblock %}
+
+{% block content %}
+<div class="form-container">
+    <h2>¿Estás seguro de que quieres borrar "{{ producto.nombre }}"?</h2>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn">Borrar</button>
+    </form>
+    <a href="{% url 'detalle_producto' producto.pk %}" class="btn">Cancelar</a>
+</div>
+{% endblock %}
