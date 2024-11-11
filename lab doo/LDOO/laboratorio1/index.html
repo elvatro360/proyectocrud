@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Laboratorio 1</title>
+		<script>
+			function Imprimir()
+			{
+			var X = document.getElementById("nombre").value;
+			var Y = document.getElementById("PrimerApellido").value;
+			var Z = document.getElementById("SegundoApellido").value;
+			var nombreCompleto=X+" "+ Y +" "+ Z +" ";
+			document.getElementById("nombreCompleto").innerHTML=nombreCompleto;
+			}
+			</script>
+                        <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+			<body>
+			<h1>Personas:</h1>
+			<label> Nombre</label><br><input type="text" id="nombre"><br>
+			<label> Primer Apellido</label><br><input type="text" id="PrimerApellido"><br>
+			<label> Segundo Apellido</label><br><input type="text" id="SegundoApellido"><br>
+			<br>
+			<input type="submit" onclick="Imprimir()"><br>
+			<br>
+				<div>
+					<h2>Resultados</h2>
+						<p>
+							Texto: <label id="nombreCompleto"> </label>
+						</p>
+				<div>
+			</body>
+</html>

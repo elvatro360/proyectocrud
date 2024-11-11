@@ -1,0 +1,4 @@
+https://www.w3schools.com/html/html_forms.asp
+https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=527:get-y-post-html-method-formas-de-envio-de-datos-en-formulario-diferencias-y-ventajas-ejemplos-cu00721b&catid=69&Itemid=192
+https://www.tutorialspoint.com/servlets/servlets-form-data.htm
+https://www.w3schools.com/html/html_forms.asp
