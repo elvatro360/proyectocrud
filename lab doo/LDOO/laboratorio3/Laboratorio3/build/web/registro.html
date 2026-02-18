@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Laboratorio3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center>
+        <h1>Registro</h1>
+        <form action="registro" method="post" name="registro">
+            <label> Titulo</label><br><input type="text" name="titulo"><br>
+            <label> Nombre completo</label><br><input type="text" name="nombre"><br>
+            <label> Contraseña </label><br><input type="password" name="psw"><br>
+            <label for="mail"> E-mail</label><br><input type="email" name="email"><br>
+            <label>codigo postal</label><br><input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57'/>
+            <br><label> Fecha de cumpleanos</label><br>
+                <select name="dia">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option selected value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="mes">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option selected value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            <br>
+            <label> Masculino </label><input type="radio" name="sexo" value="masculino"><br>
+            <label> Femenino </label><input type="radio" name="sexo" value="femenino"><br>
+            <label> Soy mayor de edad</label><input type="checkbox" name="adulto" value="true"><br>
+            <label> Acerca de mi </label><br><textarea name="mytextarea" rows="5"></textarea><br>
+            <input type="button" value="Borrar" onclick="limpiar()"><input type="submit" value="Enviar">
+        </form>
+        <script>
+            function limpiar(){
+                document.forms["registro"].reset();
+            }
+        </script>
+        <footer><br><div><h6>Fernando Martinez Bautista</h6></div></footer>
+        </center>
+        </body>
+</html>
