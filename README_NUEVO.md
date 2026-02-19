@@ -354,8 +354,8 @@ POST /producto/nuevo/
 
 ## 👨‍💼 Autor
 
-**Fernando Pérez**  
-GitHub: [@tuusuario]  
+**Fernando Martínez**  
+GitHub: @elvatro360  
 Email: tu@email.com
 
 ---
